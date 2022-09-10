@@ -1,0 +1,4 @@
+<span th:inline="text">Bienvenue admin [[${#httpServletRequest.remoteUser}}]]</span>
+<form th:action="@/logout" method="post"'>
+<input type="submit" value="Déconexion ?">
+</form>
